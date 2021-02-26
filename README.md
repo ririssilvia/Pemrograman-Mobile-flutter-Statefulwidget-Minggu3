@@ -21,3 +21,11 @@ samples, guidance on mobile development, and a full API reference.
 
 # Hasil Praktikum 3
 
+![plot](./image/1.png)
+<br>
+
+![plot](./image/2.png)
+
+<br>
+
+![plot](./image/3.png)
