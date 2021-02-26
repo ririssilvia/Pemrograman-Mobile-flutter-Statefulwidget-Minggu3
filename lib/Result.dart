@@ -20,9 +20,7 @@ class Result extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget> [
-              Text('Suhu dalam Kelvin',
-              style: TextStyle(height: 2)
-              ),
+              Text('Suhu dalam Kelvin'),
               Text('$_kelvin', style: TextStyle(height: 2, fontSize:30)),
             ],
           ),
@@ -30,9 +28,7 @@ class Result extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget> [
-              Text('Suhu dalam Reamur',
-              style: TextStyle(height: 2)
-              ),
+              Text('Suhu dalam Reamur'),
               Text('$_reamur', style: TextStyle(height: 2, fontSize:30)),
             ],
           ),

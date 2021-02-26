@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class Convert extends StatelessWidget {
- final Function konvertHandler;
+final Function konvertHandler;
 Convert({Key key, @required this.konvertHandler});
 
   @override
