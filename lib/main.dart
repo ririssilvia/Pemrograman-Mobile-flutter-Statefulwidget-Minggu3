@@ -20,8 +20,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   //controller
   TextEditingController etInput = new TextEditingController();
-  final  konvertHandler = Function;
-
+  
   //variabel berubah
   double _inputUser = 0;
   double _kelvin = 0;
@@ -39,6 +38,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
    return MaterialApp(
+        debugShowCheckedModeBanner: false ,
         title: 'Flutter Demo',
         theme: ThemeData(
           primarySwatch: Colors.blue,
